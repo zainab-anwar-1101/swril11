@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+  background-image: url("img2.jpg");
+  background-size: cover;
+}
+
+header {
+  background-color: #001089;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.about{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.news{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.player{
+    padding: 40px;
+    margin: 10px;
+    background-color: #99dbff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.famous-players {
+   padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.players {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #99dbff;
+  color: #003552;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position : fixed;
+  width: 100%;
+  bottom: 0;
+}
+
