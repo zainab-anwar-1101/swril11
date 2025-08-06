@@ -1,9 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f0f0f0;
-  background-image: url("img2.jpg");
-  background-size: cover;
+  background-color: #dad2d2;
+  
 }
 
 header {
@@ -32,7 +31,7 @@ nav a:hover {
     margin: 50px;
     background-color: #7484ff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px #006084;
 
 }
 .news{
@@ -40,34 +39,43 @@ nav a:hover {
     margin: 50px;
     background-color: #7484ff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px #006084;
 
 }
 .player{
     padding: 40px;
     margin: 10px;
-    background-color: #99dbff;
+    background-color: #01a1f8;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    box-shadow: 0 2px 10px #7dd7f8;
 }
-
-.famous-players {
+.fam{
+    text-shadow: 0 2px 10px #7dd7f8;
+    color: rgb(0, 43, 69);
+}
+.ren{
+    text-shadow: 0 2px 10px #7dd7f8;
+    color: rgb(0, 35, 57);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.famous-players 
+{
    padding: 20px;
     margin: 50px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    text-shadow: 0 2px 10px #7dd7f8;
 }
 .players {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-    margin: 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 50px;
+  border-radius: 10px;
 
 }
 footer {
