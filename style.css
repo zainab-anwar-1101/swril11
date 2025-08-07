@@ -12,7 +12,7 @@ header {
   text-align: center;
 }
 .world {
-  text-shadow: 0 2px 10px #002465;
+  
   font-family: "Potta One", system-ui;
   font-weight: 400;
   font-size: 50px;
@@ -25,7 +25,6 @@ header {
   font-family: "Gamja Flower", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 0 2px 10px #bcd4ff;
 }
 h2{
   font-family: "Jolly Lodger", system-ui;
@@ -48,11 +47,7 @@ li{
     color: #00193c;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-}
+
 
 nav a:hover {
   text-decoration: underline;
@@ -63,7 +58,7 @@ nav a:hover {
     margin: 50px;
     background-color: #7484ff;
     border-radius: 10px;
-    box-shadow: 0 2px 10px #006084;
+    
 
 }
 .news{
@@ -71,7 +66,7 @@ nav a:hover {
     margin: 50px;
     background-color: #7484ff;
     border-radius: 10px;
-    box-shadow: 0 2px 10px #006084;
+    
 
 }
 .player{
@@ -83,25 +78,22 @@ nav a:hover {
     flex-wrap: wrap;
     text-align: center;
     color: white;
-    box-shadow: 0 2px 10px #002e41;
+    
 }
-.player:hover{
-    padding: 45px;
-    background-color: #002437;
-    transition-duration: 0.4s;
-}
+
+
 .ch{
   color: white;
-  text-shadow: 0 2px 10px #000000;
+  
 }
 .fam
 {
-    text-shadow: 0 2px 10px #00161e;
+    
     color: rgb(0, 43, 69);
 }
 .ren
 {
-    text-shadow: 0 2px 10px #effbff;
+    
     color: rgb(0, 35, 57);
     font-size: 30px;
     margin-bottom: 20px;
