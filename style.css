@@ -47,6 +47,11 @@ li{
     color: #00193c;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+nav a{
+color: white;
+margin: 0 15px;
+text-decoration: none;
+}
 
 
 
