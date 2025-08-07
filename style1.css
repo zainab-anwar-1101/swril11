@@ -1,1 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e1fbf7;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+ background-color: #008970;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 35px;
+}
+        
+.nav-links {
+   font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  gap: 32px;
+  padding: 16px;
+  text-shadow: 0 2px 10px #004e4a;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.rules {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgb(195, 250, 255);
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #004e51;
+}
+
+h1 {
+  font-size: 30px;
+  text-shadow: 0 2px 10px #004e51;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+}
+        
+h2 {
+  color: #005c64;
+  border-bottom: 2px solid #90eee8;
+  padding-bottom: 5px;
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.header{
+  color: white;
+  text-shadow: 0 2px 10px #004e51;
+  font-size: 20px;
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  line-height: 1.6;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.foot{
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+footer a {
+  color: #7a7a7a;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
