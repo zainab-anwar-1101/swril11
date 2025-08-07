@@ -11,11 +11,43 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+.world {
+  text-shadow: 0 2px 10px #002465;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 30px;
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 2px 10px #bcd4ff;
+}
+h2{
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
 nav {
   margin-top: 10px;
 }
-
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+     font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 nav a {
   color: white;
   margin: 0 15px;
@@ -45,22 +77,38 @@ nav a:hover {
 .player{
     padding: 40px;
     margin: 10px;
-    background-color: #01a1f8;
+    background-color: #003c5d;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    box-shadow: 0 2px 10px #7dd7f8;
+    color: white;
+    box-shadow: 0 2px 10px #002e41;
 }
-.fam{
-    text-shadow: 0 2px 10px #7dd7f8;
+.player:hover{
+    padding: 45px;
+    background-color: #002437;
+    transition-duration: 0.4s;
+}
+.ch{
+  color: white;
+  text-shadow: 0 2px 10px #000000;
+}
+.fam
+{
+    text-shadow: 0 2px 10px #00161e;
     color: rgb(0, 43, 69);
 }
-.ren{
-    text-shadow: 0 2px 10px #7dd7f8;
+.ren
+{
+    text-shadow: 0 2px 10px #effbff;
     color: rgb(0, 35, 57);
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
 }
 .famous-players 
 {
@@ -69,23 +117,37 @@ nav a:hover {
     border-radius: 10px;
     text-shadow: 0 2px 10px #7dd7f8;
 }
-.players {
+.players 
+{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
   margin: 50px;
   border-radius: 10px;
-
 }
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #99dbff;
-  color: #003552;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  position : fixed;
-  width: 100%;
-  bottom: 0;
+footer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #0f0141;
+    color:rgb(183, 224, 250);
+    text-align: center;
+}
+footer a 
+{
+    color: #1d76fc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover 
+{
+    color: #9edaff;
+    text-decoration: underline;
+}
+.za{
+  color:rgb(183, 224, 250);
 }
 
