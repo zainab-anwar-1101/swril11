@@ -64,14 +64,9 @@ nav a:hover {
     background-color: #003d93;
     border: 2px solid #30dffe;
     border-radius: 12px;
-    overflow: hidden;
     text-align: left;
-    transition: transform 0.3s ease;
-    vertical-align: top;
-}
-.section:hover {
-    transform: scale(1.05);
-    border-color: #b33beb;
+    
+
 }
 .section img {
     width: 100%;
